@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+    color:black;
+}
+html,body{
+    height: 100%;
+    width:100%;
+}
+#nav{
+    height: 80px;
+    width:1500px;
+    background-color:rgb(206, 231, 241);
+    display:flex;
+    align-items:center;
+    padding:0 10px;
+    gap:40px;
+    justify-content: flex-start;
+}
+#nav img{
+    height: 60px;
+}
+#nav h4{
+    text-transform: uppercase;
+    font-weight:500;
+}
+#t{
+    text-align:center;
+    padding-top:100;
+}
+#t1{
+    text-align:center;
+    padding-top:50;
+}
+#sel{
+    width: 230;
+    height: 30;
+    font-size:large;
+    margin-top: 30;
+    margin-left:445px;
+}
+#sel1{
+    width:370;
+    height:30;
+    font-size:large;
+}
+#p{
+    text-align:center;
+    font-size:large;
+    padding-top:10px;
+    color:gray;
+}
+#d{
+    background-color:rgb(206, 231, 241);
+    height:100px;
+    width:1500px;
+    display:flex;
+}
+.fa-cart-shopping{
+font-size:20;
+color:black;
+}
+#img{
+    height:550px;
+    width:1500;
+    background-image: url("fd.webp");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#r
+{
+    height:600px;
+    width:1500;
+    background-color:white;
+}
+h1{
+    text-align:center;
+    padding-top:150px;
+}
+#f1{
+    background-color: rgb(76, 116, 234);
+    width:1500;
+    margin-top: 50;
+}
+pre{
+    color: white;
+}
+.flex-c{
+    display: flex;
+    padding-left: 500px;
+}
+.flex-c2{
+    padding-left:100 ;
+}
+.flex-c3{
+    padding-left:100 ;
+}
+#art{
+    width: 300;
+    height:300;
+    padding-left: 100;
+}
+#ar{ 
+    
+    margin-top: 75;
+    margin-left: 100;
+}
+#c1{
+    height:40;
+    width:50;
+    color:black;
+    margin-left:90;
+    margin-top:25;
+}
+#text{
+    padding-left:7;
+    padding-top:40;
+}

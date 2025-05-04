@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: lato;
+    margin: 0 !important;
+    /* background:url('background.jpg') no-repeat; */
+    background-color: #1a1a1a;
+    backdrop-filter: blur(15px);
+    color: white;
+}
+
+
+
+/* .topnav {
+    background-color: #464545;
+    overflow: hidden;
+    margin: 0;
+    position: sticky;
+    
+    z-index: 1000;
+
+} */
+
+/* .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+} */
+
+.topnav {
+    position: sticky;
+    top: 0;
+    height: 54px;
+    z-index: 1000;
+    background-color: #464545;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+}
+
+/* Brand logo and name container */
+.brand {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    margin-left: 89px;
+}
+
+.logo {
+    height: 30px;
+    width: 30px;
+    margin-right: 8px;
+}
+
+.brand-name {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Nav links */
+.topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Hover effect */
+.topnav a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Active link */
+.topnav a.active {
+    color: #ffffff;
+}
+
+/* Right-aligned section */
+.topnav-right {
+    /* margin-left: auto; */
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    width: 54%;
+    margin-left: 130px;
+    /* adjust this value to move it more or less */
+}
+
+.nav-links a {
+    padding: 14px 16px;
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav-links a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+
+
+
+table {
+    background-color: white;
+    color: black;
+    width: 70%;
+    margin: 20px auto;
+    border-radius: 6px;
+}
+
+/* Style table headers */
+th {
+    /* background-color: #f2f2f2; */
+    padding: 10px;
+}
+
+/* Style table cells */
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style the remove button */
+button {
+    border-radius: 40px;
+    background: #00754a;
+    height: 40px;
+    width: 100px;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1a1a1a;
+
+}
+
+/* Style the grand total row */
+tr:last-child {
+    font-weight: bold;
+}
+
+/* Style the input fields */
+input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+}
+
+.product-image {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+
+
+
+/* Fullscreen modal overlay */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1000;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100vw;
+    /* Full width */
+    height: 100vh;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Black with opacity */
+}
+
+/* Modal content box */
+.modal-content {
+    background-color: #fff;
+    margin: 5% auto;
+    /* 5% from top and centered */
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+    /* Limit max width for readability */
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+/* Close button styling */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+}
+
+/* Input fields styling */
+.modal-content input {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Submit button styling */
+.modal-content button {
+    padding: 21px 0px;
+    margin-top: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 100%;
+    height:54px ;
+    width: 114px;
+    cursor: pointer;
+}
+
+.modal-content button:hover {
+    background-color: #218838;
+}
+
+
+.button1 {
+    margin: auto;
+    border-radius: 40px;
+    background: #00754a;
+    height: 40px;
+    width: 100px;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
