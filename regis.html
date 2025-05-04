@@ -1,0 +1,54 @@
+<html>
+<head>
+    <link rel="stylesheet" href="regis.css">
+</head>
+<body>
+    <div class="wrapper">
+        <form action="regis1.php" method="POST" onsubmit="return validateForm()">
+            <h1>Registration</h1>
+
+            <div class="input-box">
+                <input type="text" name="name" placeholder="User Name" required>    
+            </div>
+            <div class="input-box">
+                <input type="text" name="lname" placeholder="Last Name" required>
+            </div>
+            <div class="input-box">
+                <input type="text" name="email" id="email" placeholder="Email Id"
+                       pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                       title="Please follow the email format like name@gmail.com" required>
+            </div>        
+            <div class="input-box">
+                <input type="password" name="pwd" placeholder="Password"
+                       minlength="6" maxlength="10"
+                       title="Enter minimum 6 characters and maximum 10 characters" required>
+            </div>
+            <div class="input-box">
+                <select name="gender" required>
+                    <option value="" disabled selected>Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>           
+            <div class="input-box">
+                <select name="city" required>
+                    <option value="" disabled selected>Select City</option>
+                    <option value="Ahmedabad">Ahmedabad</option>
+                    <option value="Surat">Surat</option>
+                    <option value="Vadodara">Vadodara</option>
+                </select>
+            </div>        
+            <div class="input-box">
+                <input type="text" name="address" placeholder="Address" required>
+            </div>
+
+            <button type="submit" name="submit" class="btn">Registration</button>
+
+            <!-- Inside the form now -->
+            <div class="register-link">
+                <p>Already Signed Up? <a href="login.html">Login Instead</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

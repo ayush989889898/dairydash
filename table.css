@@ -1,0 +1,26 @@
+.btn{
+    width: 10%;
+    height: 45px;
+    
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:url('background.jpg') no-repeat;
+    backdrop-filter: blur(15px);
+    background-size: cover;
+    background-position: center;
+}
+.btn1{
+    padding: 10px 20px; 
+}
